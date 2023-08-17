@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> My Quiz App </title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+<div class="start_btn"><button> Start Quiz</button> </div>
+
+<div class="info_box">
+    <div class="info_title">
+        <span> Some Rules of this Quiz</span>
+    </div>
+    <div class="info_list">
+        <div class="info">1. You have only <span>15 secs</span>  for each questions</div>
+        <div class="info">2. Once you select your answer you can't reselect</div>
+        <div class="info">3. You can't select any option once timer goes off</div>
+        <div class="info">4. You can't exit from the quiz while youre playing</div>
+        <div class="info">5. You'd get points on the basis of your correct answers</div>
+    </div>
+    <div class="button">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+<div class="quiz_box">
+    <header>
+        <div class="title"> Quiz Application</div>
+        <div class="timer"> 
+            <div class="time_text">TimeLeft</div>
+            <div class="timer_sec"> 15</div>
+        </div>
+    </header>
+    <section>
+        <div class="que_text">
+            <span> What is JavaScript?? </span>
+        </div>
+        <div class="option_list">
+            <div class="option">
+                <span>JavaScript is a scripting language used to make the website interactive</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>JavaScript is an assembly language used to make the website interactive</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="option">
+                <span>JavaScript is a compiled language used to make the website interactive</span>
+            </div>
+            <div class="option">
+                <span>None of the mentioned</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Box footer-->
+    
+    <footer>
+        <div class="total_que">
+            <span><p>2</p>Of<p>50</p>Questions</span>
+        </div>
+        <button class="next_btn"> Next Question</button>
+   </footer>
+</div>
+
+ <!-- Result -->
+ <div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">Youve completed the Quiz</div>
+    <div class="score_text">
+        <span>and sorry. You got only <p>2</p>out of <p>5</p></span>
+    </div>  
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>     
+ </div>
+
+</body> 
+</html>
+
+
